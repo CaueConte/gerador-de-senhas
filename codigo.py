@@ -39,8 +39,9 @@ while True:
 def senha_basica():
     random.shuffle(s1)
     random.shuffle(s2)
-    part1 = round(quantidade_caracteres * (50/100))
-    part2 = round(quantidade_caracteres * (50/100))
+    part1 = round(quantidade_caracteres * (40/100))
+    part2 = round(quantidade_caracteres * (40/100))
+    part3 = round(quantidade_caracteres * (20/100))
 
     resultado = []
     for x in range(part1):
@@ -48,6 +49,9 @@ def senha_basica():
     
     for x in range(part2):
         resultado.append(s2[x])
+
+    for x in range(part3):
+        resultado.append(s3[x])
     
     random.shuffle(resultado)
     senha = ''.join(resultado)
