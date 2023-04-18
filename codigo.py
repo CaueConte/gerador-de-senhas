@@ -17,8 +17,8 @@ while True:
         print('3-Mais informacoes')
         escolha_usuario2 = int(input(''))
         if escolha_usuario2 == 3:
-            print('Senha basica: Apenas letras maiusculas e minusculas')
-            print('Senha Forte: Letras maiusculas e minusculas, nuemros e simbolos')
+            print('Senha basica: Letras maiusculas, minusculas e numeros')
+            print('Senha Forte: Letras maiusculas e minusculas, numeros e simbolos')
             escolha_usuario2 = int(input('Agora escolha uma opcao: '))
         elif escolha_usuario2 > 3 or escolha_usuario2 < 1:
             print('Opcao invalida')
